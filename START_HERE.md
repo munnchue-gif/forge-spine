@@ -21,18 +21,18 @@
 
 ## Current Priority Order
 
-1. Gate v2 (done)
-2. Forge organ (done)
-3. Capsule loader (done)
-4. Ledger v2
-5. Isolation + Hopper
-6. Minimal Kernel boot
-7. Local unrestricted model serving (GPU keychain)
+1. Gate v2 — done
+2. Forge organ — done
+3. Capsule loader — done
+4. Ledger v3 — done (validate green)
+5. Isolation + Hopper — done
+6. Kernel boot + `python -m forge` — done
+7. Local unrestricted model serving (GPU keychain) — next
 8. NPU light model splice
 
 ## Forbidden
 
-- Soft protocol ("I’ll just fix this one thing")
+- Soft protocol ("I'll just fix this one thing")
 - Copying old broken files from previous repos without critique
 - Giving models KERNEL role
 - Permanent installs of tools that can be capsules
